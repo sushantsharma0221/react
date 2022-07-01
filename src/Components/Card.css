@@ -1,0 +1,23 @@
+.card {
+  transition: ease-in-out 0.4s;
+  box-shadow: 0 6px 10px rgba(61, 61, 61, 0.642);
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 6px 10px rgba(61, 61, 61, 0.97);
+  transform: scale(1.03);
+}
+
+.btn {
+  background-color: rgba(82, 152, 139, 0.781);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 2px;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 6px 10px rgba(61, 61, 61, 0.272);
+}
+.btn:hover {
+  background-color: rgba(44, 107, 95, 0.781);
+}

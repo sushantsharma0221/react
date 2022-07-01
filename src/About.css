@@ -1,0 +1,33 @@
+.mytext {
+  margin-top: 6rem;
+  padding: 2rem;
+}
+.mytext h1,
+h4 {
+  font-family: "Righteous";
+  letter-spacing: 2px;
+}
+
+.about-us-bg {
+  background-image: url("./Images/12.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.429);
+  background-blend-mode: color;
+  background-attachment: fixed;
+}
+
+.about-us-text {
+  font-size: 1.3rem;
+}
+.my-btn {
+  background-color: rgba(82, 152, 139, 0.79);
+  color: rgb(255, 255, 255);
+  padding: 16px 30px;
+  letter-spacing: 2px;
+  transition: 0.3s ease-in-out;
+  border: none;
+}
+.my-btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(24, 101, 87, 0.744);
+}

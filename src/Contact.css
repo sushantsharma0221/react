@@ -1,0 +1,29 @@
+.form-section {
+  background-color: black;
+  color: white;
+  background-image: url("./Images/17.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.422);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-position: center;
+}
+form {
+  margin-top: 7rem;
+}
+form h2 {
+  color: rgb(255, 255, 255);
+}
+.submit-btn {
+  background-color: rgba(82, 152, 139, 0.781);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 2px;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 6px 10px rgba(61, 61, 61, 0.272);
+}
+.submit-btn:hover {
+  background-color: rgba(44, 107, 95, 0.781);
+}

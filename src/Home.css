@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+  background-color: rgba(253, 255, 247, 0.662);
+  overflow-x: hidden;
+}
+.header {
+  background-image: url("./Images/6.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.422);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  min-width: 100vw;
+}
+
+.header h1 {
+  font-family: "Righteous";
+  font-weight: bolder;
+  letter-spacing: 10px;
+  font-size: 7rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.553),
+    rgba(255, 255, 255, 0.139)
+  );
+  color: transparent;
+  background-clip: text;
+  padding: 1.2rem;
+}
+.header p {
+  font-size: 1.3rem;
+  color: rgb(205, 205, 205);
+  letter-spacing: 1px;
+}
+.mybtn {
+  background-color: rgba(82, 152, 139, 0.79);
+  color: rgb(255, 255, 255);
+  padding: 20px 40px;
+  letter-spacing: 2px;
+  transition: 0.3s ease-in-out;
+  border: none;
+}
+.mybtn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(24, 101, 87, 0.744);
+}
+.section2 p {
+  color: gray;
+  font-family: "Open sans";
+}
+.section2-img {
+  box-shadow: 0px 12px 12px rgb(52, 52, 52);
+}
+.section3 {
+  background-image: url("./Images/12.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.422);
+  background-blend-mode: color;
+  background-attachment: fixed;
+  background-position: center;
+}
+.my-cards {
+  background-image: url("./Images/3.jpg");
+  background-size: cover;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.438);
+  background-blend-mode: color;
+  background-attachment: fixed;
+}
+.email {
+  border: none;
+  min-width: 360px;
+  height: 63px;
+  padding: 20px;
+  outline: none;
+}
+.notify-btn {
+  border: none;
+}
+@media (max-width: 770px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 420px) {
+  .header h1 {
+    font-size: 2.4rem;
+  }
+}
