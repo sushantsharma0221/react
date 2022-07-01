@@ -16,7 +16,3 @@ nav ul li {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
-.active {
-  color: rgb(41, 106, 84) !important;
-}
