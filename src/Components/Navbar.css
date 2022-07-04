@@ -4,6 +4,10 @@
   width: 100vw;
 }
 
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0);
+  border: none;
+}
 .react-icon {
   font-size: 1.5rem;
   letter-spacing: 2px;

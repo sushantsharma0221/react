@@ -82,6 +82,31 @@ body {
 .notify-btn {
   border: none;
 }
+.my-projects {
+  background-image: url("./Images/6.jpg");
+  background-size: cover;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.438);
+  background-blend-mode: color;
+  background-attachment: fixed;
+}
+.my-projects h3 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-size: "Roboto";
+}
+.my-projects h4 {
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  font-size: "Roboto";
+  margin: 20px 0px;
+}
+iframe {
+  min-height: 74vh;
+  min-width: 28vw;
+  box-shadow: 5px 5px 12px rgb(148, 148, 148);
+  border-radius: 10px;
+}
 @media (max-width: 770px) {
   .header h1 {
     font-size: 4rem;
@@ -95,5 +120,9 @@ body {
 @media (max-width: 420px) {
   .header h1 {
     font-size: 2.4rem;
+  }
+  iframe {
+    max-height: 70vh;
+    max-width: 250px;
   }
 }

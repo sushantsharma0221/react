@@ -60,7 +60,43 @@ const Home = () => {
       </section>
       <br />
       <br />
-      {/* section 3 */}
+      <section className="my-projects">
+        <div className="container-fluid">
+          <div className="row text-white my-5">
+            <div className="col-md-12">
+              <h3 className=" text-center ">MY PROJECTS</h3>
+            </div>
+          </div>
+
+          <div className="row text-center text-white projects-container my-5">
+            <div className="col-md-4  my-4 my-md-0">
+              <h4>Food Website</h4>
+              <iframe
+                title="food-website"
+                src="https://sushantsharma0221.github.io/Food-Website"
+                frameborder="0"
+              ></iframe>
+            </div>
+            <div className="col-md-4  my-4 my-md-0">
+              <h4>Astrology Website</h4>
+              <iframe
+                title="Weather-app"
+                src="https:astroDrishti.herokuapp.com"
+                frameborder="0"
+              ></iframe>
+            </div>
+            <div className="col-md-4  my-4 my-md-0">
+              <h4>Corporate Website</h4>
+              <iframe
+                title="food-website"
+                src="https://sushantsharma0221.github.io/CorporateWebsite"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
       <div className="container-fluid section3  d-flex flex-column align-items-center justify-content-center mt-5">
         <div className="row text-center ">
           <div className="col-md-12">
